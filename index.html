@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCEANO 14 | Vida na Água</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2> OCEANO 14</h2>
+
+            <ul>
+                <li><a href="#"onclick="mostrarPagina('inicio')">Início</a></li>
+                <li><a href="#"onclick="mostrarPagina('sobre')">ODS 14</a></li>
+                <li><a href="#"onclick="mostrarPagina('metas')">Metas da ONU</a></li>
+                <li><a href="#"onclick="mostrarPagina('ameacas')">Desafios</a></li>
+                <li><a href="#"onclick="mostrarPagina('conservacao')">Soluções</a></li>
+                <li><a href="#"onclick="mostrarPagina('brasil')">No Brasil</a></li>
+                <l1><a href="#"onclick="mostrarPagina('explore')">Explore</a></l1>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="pagina">
+            <h1>ODS 14: VIDA NA ÁGUA</h1>
+            <h2>O furturo dos oceanos também depende de você.</h2>
+            <p>Conservar e utilizar de forma sustentável os oceanos, mares e recursos marinhhos é essencial para o futuro do planeta.</p>
+            <button onclick="mostrarPagina('sobre')"> CONHEÇA A ODS 14</button>
+        </section>
+        <section id="sobre" class="pagina">
+            <h2>O QUE É A ODS 14?</h2>
+            <p>A ODS 14 é um dos 17 Objetivos de Desenvolvimento Sustentável estabelecios pela Organização das Nações Unidas (ONU), em 2015, como parte da Agenda 2030</p>
+            <p>Seu principal propósito é conservar e utilizar de maneira sustentável os oceanos, mares e recursos marinhos, reconhecendo sua importância para o equilíbrio ambiental e para a sobrevivência humana</p>
+            <h3>Por que ela é importante?</h3>
+            <p>Os ambientes marinhos contribuem para a regulação do clima, abrigam uma enorme biodiversidade e fornecem alimentos e recursos para milhões de pessoas.</p>
+            <p>Entretanto, a poluição, a exploração excessiva dos recursos e a degradação dos ecossistemas ameaçam esse equilíbrio.</p>
+
+        </section>
+        <section id="metas" class="pagina">
+            <h2>As metas da ODS 14</h2>
+            <p> A ONU estabeleceu metas específicas para orientar os países na conservação dos oceanos e no uso sustentável dos recursos marinhos.</p>
+            <div class="meta-container">
+                <article>
+                    <he>14.1 - Poluição marinha</he>
+                </article>
+            </div>
+        </section>
+        <section id="ameacas" class="pagina">
+            <h2>O que ameaça os nossos oceanos?</h2>
+            <p> Apesar de sua importância, os oceanos enfrentam ameaças causadas principalmente pelas atividades humanas.</p>
+            
+            <div class="ameacas-container">
+
+                <article>
+                    <h3>Poluição marinha</h3>
+                    <p> O descarte inadequado de plásticos e outros resíduos prejudica os ecossistemas marinhos e coloca diversas espécies em risco.</p>
+                </article>
+                <article>
+                    <h3>Mudanças clímaticas</h3>
+                    <p>O aumento da temperatura dos oceanos e a acidificação da água afetam os habitats e a sobrevivência da vida marinha.</p>
+                </article>
+            </div>
+        </section>
+        <section id="conservacao" class="pagina">
+            <h2>O oceanos precisa de proteção</h2>
+            <p>Preservar os ocenos é uma responsabilidade coletiva. Pequenas mudanças de atitude podem contribir para um futuro mais sustentável.</p>
+            <div class="conservacao-container".>
+                <article>
+                    <h3>Reduza o lástico</h3>
+                    <p>Evite produtos descartáveis e descarte corretamente os resíduos.</p>
+                </article>
+                <article>
+                    <h3>Consuma com consciência</h3>
+                    <p>Valorize práticas de pesca sustentável e eite produtos de origem ilegal.</p>
+                </article>
+            </div>
+        </section>
+        <section id="explore" class="pagina">
+            <h2>Mergulhe no conhecimento</h2>
+            <p>Voê conhece realmente os oceanos?</p>
+            <p>Teste seus conhecimentos e descubra curiosidades sobre a vida marinha.</p>
+            <div class="quiz">
+                <h3>Você sabia?</h3>
+                <p>Qual é a porcentagem aproximada da superfície terrestre coberta pelos oceanos?</p>
+
+                <button onclick="verificarResposta('a')">
+                    A- 30%
+                </button>
+                <button onclick="verificarResposta('b')">
+                    B- 50%
+                </button>
+                <button onclick="verificarResposta('c')">
+                    C- 71%
+                </button>
+                <p id="resustado"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>OCEANO 14 | O futuro dos oceanos também depende de você.</p>
+        <p>Projeto inspirado na ODS 14 - Vida na Água.</p>
+    </footer>
+</body>
+</html>
